@@ -1,6 +1,6 @@
-# Personal Notes:
+# Personal Notes
 
-This is my personal fork of amix's vimrc.
+This is my personal fork of amix's vimrc. I've added a bunch of goodies, feel free to use my changes for anything you'd like.
 
 
 # The Ultimate vimrc
