@@ -2,7 +2,6 @@
 
 This is my personal fork of amix's vimrc. I've added a bunch of goodies, feel free to use my changes for anything you'd like.
 
-
 # The Ultimate vimrc
 
 Over the last 8 years I have used and tweaked Vim. This is my Ultimate vimrc.
