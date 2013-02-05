@@ -7,28 +7,24 @@
 set rnu
 set autoread
 
-imap ,<tab> <c-n>
-imap ,i <c-y>,
-imap ,w <Esc>:w<CR>a
-imap ,e <Esc>:w:e 
-imap ,q <Esc>:wq<CR>
-imap ,,q <Esc>:q<CR>
+imap <leader><tab> <c-n>
+imap <leader>i <c-y>,
+imap <leader>w <Esc>:w<CR>a
+imap <leader>e <Esc>:w:e 
+imap <leader>q <Esc>:wq<CR>
+imap <leader><leader>q <Esc>:q<CR>
 
-nmap J j
-nmap K k
-nmap 00 di)i
 nmap 0) di)i
 nmap 0] di]i
 nmap 0} di}i
 nmap GG 1G
-nmap M `
-nmap ,2 @
+nmap <leader>2 @i
 nmap Q @
+nmap <leader>e <Esc>:w<CR>:e 
+nmap <leader><leader>e <Esc>:e 
+nmap <leader>q <Esc>:wq<CR>
+nmap <leader><leader>q <Esc>:q<CR>
 
-map ,e <Esc>:w<CR>:e 
-map ,,e <Esc>:e 
-map ,q <Esc>:wq<CR>
-map ,,q <Esc>:q<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "                                                         "
@@ -46,14 +42,6 @@ let g:use_zen_complete_tag = 1
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 au BufNewFile,BufRead *.tag set filetype=tag
-
-
-
-
-
-
-
-
 
 
 
