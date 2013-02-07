@@ -42,6 +42,8 @@ let g:use_zen_complete_tag = 1
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 au BufNewFile,BufRead *.tag set filetype=tag
+au BufNewFile,BufRead *.u3d set filetype=u3d
+au BufNewFile,BufRead *.ddk set filetype=ddk
 
 
 
