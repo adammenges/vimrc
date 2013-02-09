@@ -9,10 +9,7 @@ Goodies added:
  * updated file definitions
 
 
-
-
-## Amix's notes:
-
+---------------------------------------
 
 
 # The Ultimate vimrc
