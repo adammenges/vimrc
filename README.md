@@ -1,4 +1,4 @@
-# Personal Notes
+# Personal notes
 
 This is my personal fork of amix's vimrc, I used it as a great starting place for my own. For the most part this is up on github to for easy syncing between my machines, however, feel free to use the changes for anything you'd like.
 
@@ -10,7 +10,12 @@ Goodies added:
 
 
 
-# The Ultimate vimrc (amix's notes)
+
+## Amix's notes:
+
+
+
+# The Ultimate vimrc
 
 Over the last 8 years I have used and tweaked Vim. This is my Ultimate vimrc.
 
