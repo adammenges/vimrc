@@ -5,6 +5,7 @@ This is my personal fork of amix's vimrc, I used it as a great starting place fo
 Goodies added:
  * vim-rails
  * zencoding
+ * vim-surround
  * better key bindings
  * updated file definitions
 
