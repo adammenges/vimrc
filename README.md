@@ -1,6 +1,6 @@
-# Personal notes
+# General notes
 
-This is my personal fork of amix's vimrc, I used it as a great starting place for my own. For the most part this is up on github to for easy syncing between my machines, however, please feel free to use the changes for anything you'd like.
+This began as a fork of amix's vimrc, used as a great starting place for my own. However, since then it's changed extensively. Please feel free to use the changes for anything you'd like.
 
 Goodies added:
  * vim-rails
