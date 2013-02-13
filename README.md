@@ -6,7 +6,11 @@ Goodies added:
  * vim-rails
  * zencoding
  * vim-surround
+ * syntastic
+ * vim-fugitive
  * better key bindings
+ * pathogen actually works
+ * better general structure
  * updated file definitions
 
 

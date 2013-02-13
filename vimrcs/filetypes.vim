@@ -52,3 +52,15 @@ function! CoffeeScriptFold()
     setl foldlevelstart=1
 endfunction
 au FileType coffee call CoffeeScriptFold()
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"                                                         "
+"                     new filetypes                       "
+"                                                         "
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+au BufNewFile,BufRead *.tag set filetype=tag
+au BufNewFile,BufRead *.u3d set filetype=u3d
+au BufNewFile,BufRead *.ddk set filetype=ddk
+
+
