@@ -1,32 +1,7 @@
 # VIM Stuff #
 #############
 temp_dirs/*
-
-# Compiled source #
-###################
-*.com
-*.class
-*.dll
-*.exe
-*.o
-*.so
-
-# Packages #
-############
-*.7z
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
-
-# Logs and databases #
-######################
-*.log
-*.sql
-*.sqlite
+sources_non_forked/ack.vim/.netrwhist
 
 # OS generated files #
 ######################
