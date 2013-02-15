@@ -8,6 +8,7 @@ Goodies added:
  * vim-surround
  * syntastic
  * vim-fugitive
+ * Added hundreds of color schemes
  * better key bindings
  * pathogen actually works
  * better general structure
