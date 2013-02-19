@@ -13,6 +13,20 @@ call pathogen#infect('~/.vim_runtime/sources_plugins')
 call pathogen#infect('~/.vim_runtime/sources_non_forked')
 call pathogen#helptags()
 
+
+""""""""""""""""""""""""""""""
+" => Gundo plugin
+""""""""""""""""""""""""""""""
+nnoremap <c-u> :GundoToggle<CR>
+
+
+""""""""""""""""""""""""""""""
+" => Zencoding plugin
+""""""""""""""""""""""""""""""
+let g:user_zen_expandabbr_key = '<c-e>'
+let g:use_zen_complete_tag = 1
+
+
 """"""""""""""""""""""""""""""
 " => bufExplorer plugin
 """"""""""""""""""""""""""""""
