@@ -8,6 +8,7 @@ Goodies added:
  * vim-surround
  * syntastic
  * vim-fugitive
+ * Gundo
  * Added hundreds of color schemes
  * better key bindings
  * pathogen actually works
@@ -80,11 +81,7 @@ I recommend reading the docs of these plugins to understand them better. Each of
 
 ## How to include your own stuff?
 
-After you have installed the setup you can create **~/.vim_runtime/my_configs.vim** to fill in any configurations that are important for you. For instance, my **my_configs.vim** looks like this:
-
-	~/.vim_runtime (master)> cat my_configs.vim
-	map <leader>ct :cd ~/Desktop/Todoist/todoist<cr>
-	map <leader>cw :cd ~/Desktop/Wedoist/wedoist<cr> 
+After you have installed the setup you can create **~/.vim_runtime/vimrcs/general.vim** to fill in any configurations that are important for you.
 
 You can also install your own plugins, for instance, via pathogen we can install [vim-rails](https://github.com/tpope/vim-rails):
 
@@ -190,6 +187,9 @@ Toggle paste mode on and off:
 	
 	map <leader>pp :setlocal paste!<cr>
 
+Toggle Gundo: 
+    <c-u>
+
 
 ### Insert mode mappings
 
@@ -244,9 +244,8 @@ Bash like keys for the command line:
     cnoremap <C-A>		<Home>
     cnoremap <C-E>		<End>
     cnoremap <C-K>		<C-U>
-
-    cnoremap <C-P> <Up>
-    cnoremap <C-N> <Down>
+    cnoremap <C-P>      <Up>
+    cnoremap <C-N>      <Down>
 
 
 ### Spell checking
@@ -279,14 +278,3 @@ Vimscript mappings:
     map <leader>co ggVGy:tabnew<cr>:set syntax=qf<cr>pgg
     map <leader>n :cn<cr>
     map <leader>p :cp<cr>
-
-
-## Useful blog tips regarding my Vim setup
-
-* [Vim: Annotate strings with gettext (the macro way)](http://amix.dk/blog/post/19678#Vim-Annotate-strings-with-gettext-the-macro-way)
-* [vimgrep: Searching through multiple file extensions](http://amix.dk/blog/post/19672#vimgrep-Searching-through-multiple-file-extensions)
-* [Filtering through vimgrep results using regular expressions](http://amix.dk/blog/post/19666#Filtering-through-vimgrep-results-using-regular-expressions)
-* [PeepOpen - File auto completion for Mac editors](http://amix.dk/blog/post/19601#PeepOpen-File-auto-completion-for-Mac-editors)
-* [Vim 7.3: Persistent undo and encryption!](http://amix.dk/blog/post/19548#Vim-7-3-Persistent-undo-and-encryption)
-* [Vim tips: Visual Search](http://amix.dk/blog/post/19334#Vim-tips-Visual-Search)
-* [Folding in Vim](http://amix.dk/blog/post/19132#Folding-in-Vim)
