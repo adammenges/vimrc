@@ -1,22 +1,3 @@
-# General notes
-
-This began as a fork of amix's vimrc, used as a great starting place for my own. However, since then it's changed extensively. Please feel free to use the changes for anything you'd like.
-
-Goodies added:
- * vim-rails
- * zencoding
- * vim-surround
- * syntastic
- * vim-fugitive
- * Gundo
- * Added hundreds of color schemes
- * better key bindings
- * pathogen actually works
- * better general structure
- * updated file definitions
-
----------------------------------------
-
 ## How to install
 
 	git clone git@github.com:adammenges/vimrc.git ~/.vim_runtime
@@ -60,6 +41,12 @@ I recommend reading the docs of these plugins to understand them better. Each of
 * [ctrlp.vim](https://github.com/kien/ctrlp.vim): Fuzzy file, buffer, mru and tag finder. In my config it's mapped to `<Ctrl+F>`, because `<Ctrl+P>` is used by YankRing
 * [mru.vim](https://github.com/vim-scripts/mru.vim): Plugin to manage Most Recently Used (MRU) files. Includes my own fork which adds syntax highlighting to MRU. This plugin can be opened with `<leader+f>`
 * [open_file_under_cursor.vim](https://github.com/amix/open_file_under_cursor.vim): Open file under cursor when pressing `gf`
+* [vim-rails](https://github.com/tpope/vim-rails)
+* [zencoding](https://github.com/mattn/zencoding-vim)
+* [vim-surround](https://github.com/tpope/vim-surround)
+* [syntastic](https://github.com/scrooloose/syntastic)
+* [vim-fugitive](https://github.com/tpope/vim-fugitive)
+* [Gundo](https://github.com/sjl/gundo.vim/)
 
 
 ## What color schemes are included?
@@ -69,6 +56,7 @@ I recommend reading the docs of these plugins to understand them better. Each of
 * [vim-irblack](https://github.com/wgibbs/vim-irblack)
 * [mayansmoke](https://github.com/vim-scripts/mayansmoke)
 * [vim-pyte](https://github.com/therubymug/vim-pyte)
+* [this collection](https://github.com/flazz/vim-colorschemes)
 
 
 ## What modes are included?
@@ -187,7 +175,8 @@ Toggle paste mode on and off:
 	
 	map <leader>pp :setlocal paste!<cr>
 
-Toggle Gundo: 
+Toggle Gundo:
+    
     <c-u>
 
 
@@ -278,3 +267,13 @@ Vimscript mappings:
     map <leader>co ggVGy:tabnew<cr>:set syntax=qf<cr>pgg
     map <leader>n :cn<cr>
     map <leader>p :cp<cr>
+
+# General notes
+
+This began as a fork of amix's vimrc, used as a great starting place for my own. However, since then it's changed extensively. Please feel free to use the changes for anything you'd like.
+
+
+
+
+
+
