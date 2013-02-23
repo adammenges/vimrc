@@ -23,9 +23,6 @@ Opening recently opened files [mru.vim](https://github.com/vim-scripts/mru.vim):
 [NERD Tree](https://github.com/scrooloose/nerdtree) plugin in a terminal window:
 ![Screenshot 3](http://files1.wedoist.com/b1509d7ed9e9f357e8d04797f9fad67b/as/screenshot3.png)
 
-This vimrc even works on Windows!
-![Screenshot 4](http://files1.wedoist.com/4e85163d97b81422240c822c82022f2f/as/screenshot_4.png)
-
 
 ## What plugins are included?
 
