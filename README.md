@@ -34,19 +34,19 @@ I recommend reading the docs of these plugins to understand them better. Each of
 * [pathogen.vim](https://github.com/tpope/vim-pathogen): Manages the runtime path of the plugins
 * [YankRing](https://github.com/vim-scripts/YankRing.vim): Maintains a history of previous yanks, changes and deletes
 * [snipMate.vim](https://github.com/garbas/vim-snipmate): snipMate.vim aims to be a concise vim script that implements some of TextMate's snippets features in Vim
+* [syntastic](https://github.com/scrooloose/syntastic): Syntax checking.
 * [bufexplorer.zip](https://github.com/vim-scripts/bufexplorer.zip): Buffer Explorer / Browser. This plugin can be opened with `<leader+o>`
+* [Gundo](https://github.com/sjl/gundo.vim/): Undo tree.
 * [NERD Tree](https://github.com/scrooloose/nerdtree): A tree explorer plugin for vim
+* [zencoding](https://github.com/mattn/zencoding-vim): Super awesome speedy html construction.
 * [ack.vim](github.com/mileszs/ack.vim): Vim plugin for the Perl module / CLI script 'ack'
+* [vim-rails](https://github.com/tpope/vim-rails): vim rails integration.
+* [vim-surround](https://github.com/tpope/vim-surround): Easily surround and edit surrounding text.
 * [vim-powerline](https://github.com/Lokaltog/vim-powerline): The ultimate vim statusline utility
 * [ctrlp.vim](https://github.com/kien/ctrlp.vim): Fuzzy file, buffer, mru and tag finder. In my config it's mapped to `<Ctrl+F>`, because `<Ctrl+P>` is used by YankRing
 * [mru.vim](https://github.com/vim-scripts/mru.vim): Plugin to manage Most Recently Used (MRU) files. Includes my own fork which adds syntax highlighting to MRU. This plugin can be opened with `<leader+f>`
 * [open_file_under_cursor.vim](https://github.com/amix/open_file_under_cursor.vim): Open file under cursor when pressing `gf`
-* [vim-rails](https://github.com/tpope/vim-rails)
-* [zencoding](https://github.com/mattn/zencoding-vim)
-* [vim-surround](https://github.com/tpope/vim-surround)
-* [syntastic](https://github.com/scrooloose/syntastic)
-* [vim-fugitive](https://github.com/tpope/vim-fugitive)
-* [Gundo](https://github.com/sjl/gundo.vim/)
+* [vim-fugitive](https://github.com/tpope/vim-fugitive): Integration between git and vim.
 
 
 ## What color schemes are included?
@@ -56,7 +56,7 @@ I recommend reading the docs of these plugins to understand them better. Each of
 * [vim-irblack](https://github.com/wgibbs/vim-irblack)
 * [mayansmoke](https://github.com/vim-scripts/mayansmoke)
 * [vim-pyte](https://github.com/therubymug/vim-pyte)
-* [this collection](https://github.com/flazz/vim-colorschemes)
+* [plus this awesome this collection](https://github.com/flazz/vim-colorschemes)
 
 
 ## What modes are included?
