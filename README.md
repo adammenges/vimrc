@@ -66,7 +66,7 @@ I recommend reading the docs of these plugins to understand them better. Each of
 
 ## How to include your own stuff?
 
-After you have installed the setup you can create **~/.vim_runtime/vimrcs/general.vim** to fill in any configurations that are important for you.
+After you have installed the setup you can create **~/.vim_runtime/vimrcs/personal.vim** to fill in any configurations that are important for you.
 
 You can also install your own plugins, for instance, via pathogen we can install [vim-rails](https://github.com/tpope/vim-rails):
 
