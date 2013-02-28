@@ -4,7 +4,9 @@
 set background=dark
 
 if has("gui_running")
-    colorscheme peaksea
+    syntax enable
+    set background=light
+    colorscheme solarized
 else
     colorscheme ir_black
 endif
