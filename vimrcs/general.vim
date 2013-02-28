@@ -13,6 +13,7 @@ imap <leader>e <Esc>:w<CR>:e
 imap <leader>q <Esc>:wq<CR>
 imap <leader><leader>q <Esc>:q<CR>
 imap <leader>z <c-e>
+imap <leader>bb <Esc>:buffers 
 
 nmap 0) di)i
 nmap 0] di]i
