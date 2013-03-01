@@ -53,7 +53,7 @@ I recommend reading the docs of these plugins to understand them better. Each of
 * [vim-irblack](https://github.com/wgibbs/vim-irblack)
 * [mayansmoke](https://github.com/vim-scripts/mayansmoke)
 * [vim-pyte](https://github.com/therubymug/vim-pyte)
-* [plus this awesome this collection](https://github.com/flazz/vim-colorschemes)
+* [plus this awesome collection](https://github.com/flazz/vim-colorschemes)
 
 
 ## What modes are included?
