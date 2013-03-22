@@ -2,6 +2,7 @@
 #############
 temp_dirs/*
 sources_plugins/ack.vim/.netrwhist
+vimrcs/personal.vim
 
 # OS generated files #
 ######################
