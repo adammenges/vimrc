@@ -1,7 +1,7 @@
 ## How to install
 
 	git clone git@github.com:adammenges/vimrc.git ~/.vim_runtime
-    cp ~/.vimrc ~/.vim_runtime/vimrcs/personal.vim
+    cp ~/.vimrc ~/.vim_runtime/vimrcs/personal.vim # To keep a copy of your current vimrc
 	cp ~/.vim_runtime/vimrcs/vimrc ~/.vimrc
 
 
@@ -49,7 +49,7 @@ I recommend reading the docs of these plugins to understand them better. Each of
 
 ## What color schemes are included?
 
-* [peaksea](https://github.com/vim-scripts/peaksea): My favorite!
+* [peaksea](https://github.com/vim-scripts/peaksea)
 * [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized)
 * [vim-irblack](https://github.com/wgibbs/vim-irblack)
 * [mayansmoke](https://github.com/vim-scripts/mayansmoke)
