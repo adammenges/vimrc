@@ -1,6 +1,7 @@
 ## How to install
 
 	git clone git@github.com:adammenges/vimrc.git ~/.vim_runtime
+    cp ~/.vimrc ~/.vim_runtime/vimrcs/personal.vim
 	cp ~/.vim_runtime/vimrcs/vimrc ~/.vimrc
 
 
