@@ -1,7 +1,7 @@
 # VIM Stuff #
 #############
 temp_dirs/*
-sources_non_forked/ack.vim/.netrwhist
+sources_plugins/ack.vim/.netrwhist
 
 # OS generated files #
 ######################
