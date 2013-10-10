@@ -3,7 +3,10 @@
 "                         general                         "
 "                                                         "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-set rnu
+
+if version >= 703
+    set rnu
+endif
 set autoread
 
 imap <leader><tab> <c-n>
